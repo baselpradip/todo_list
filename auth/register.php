@@ -1,4 +1,4 @@
-<?php include './includes/header.php'; ?>
+<?php include '../includes/header.php'; ?>
 <h2>Register</h2>
 <form action="register_process.php" method="POST">
   <input type="text" name="username" placeholder="Username" required>
