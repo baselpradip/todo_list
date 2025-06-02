@@ -11,7 +11,7 @@ $todos = $stmt->fetchAll();
 
 foreach ($todos as $todo) {
     $utcTime = new DateTime($todo['created_at'], new DateTimeZone('UTC'));
-    $utcTime->setTimezone(new DateTimeZone('Asia/Kolkata'));
+    $utcTime->setTimezone(new DateTimeZone('Asia/Kathmandu'));
     $localTime = $utcTime->format('Y-m-d H:i');
 
     echo "<div class='task'>
