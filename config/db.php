@@ -13,4 +13,4 @@ try {
 } catch (\PDOException $e) {
     die("Database connection failed: " . $e->getMessage());
 }
-echo "Connected to database successfully!";
+// echo "Connected to database successfully!";
